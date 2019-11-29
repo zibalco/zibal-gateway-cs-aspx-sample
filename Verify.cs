@@ -16,7 +16,7 @@ namespace ZibalIPGRequests
         {
             try
             {
-                string url = "https://gateway.zibal.ir/verify"; // url
+                string url = "https://gateway.zibal.ir/v1/verify"; // url
                 Zibal.verifyRequest Request = new Zibal.verifyRequest(); // define Request
                 Request.merchant = "zibal"; // String
                 Request.trackId = "TRACK ID IN MAKEREQUEST() RESPONSE PARAMETERS"; // String 
